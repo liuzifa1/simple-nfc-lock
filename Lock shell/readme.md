@@ -11,4 +11,4 @@ LockHousing.SLDASM: parts all together
 # the file that u need to print is one part6b and TWO part6 if u go with my design
 remeber to check the size for each component, the part that i use isn't common
 
-and i didn't have a place for super sonic, i just glued it
+and i didn't have a place for super sonic, i just glued it at right side of part6b
