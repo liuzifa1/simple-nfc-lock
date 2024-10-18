@@ -34,19 +34,6 @@ void setup() {
     MFRC522_Init(); 
     Serial.println("(~-w-)~hi");
 }
-// Reboot function
-void(*resetFunc)(void) = 0;
-// Reboot countdown function
-void RebootCountdown() {
-    if (n < 10) {
-        n++;
-        Serial.print("reboot countdown: ");
-        Serial.println(10 - n);
-    } else {
-        Serial.println("rebooting..."); // Send reboot status to com
-        resetFunc(); // Start reboot
-    }
-}
 // Hex to decimal conversion function
 int hex_to_dec(unsigned char* input) {
     int decid = 0;
