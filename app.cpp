@@ -91,11 +91,11 @@ void loop() {
         switch (decid) {
             case -20832: // test card
             case -13725: // test pad
-            case -25276: // lzf phone
-            case 12703:  // lxy phone
-            case 9487:   // lzy phone
-            case -9186:  // xjy phone
-            case 19925:  // lxy watch
+            case -25276: 
+            case 12703:  
+            case 9487:   
+            case -9186:  
+            case 19925: 
                 Serial.println("Door Open");
                 servo1.write(180); // Turning servo
                 MFRC522_Halt();
