@@ -7,12 +7,12 @@ coil reads a card >> board verfiy the card id >> turn the servo if passed >> sup
 # the components that i used
 <Arduino uno> logic board here
 
-<MFRC522> for nfc
+MFRC522: for nfc
 
-<MG90s> lever, for lock that require force less than 14g
+MG90s: lever, for lock that require force less than 14g
 
-<HC-SR04> supersonice module, measure distance between lock and wall, which indicate if door is open or not
+HC-SR04: supersonice module, measure distance between lock and wall, which indicate if door is open or not
 
-<a out of no where battery> just grab a used powerbank, and it should be fine
+a out of no where battery: just grab a used powerbank, and it should be fine
 
-<3d printed outter shell> if u go with my design plz DOBBLE CHECK THE SIZE, because the one that i use isn't common size 
+3d printed outter shell: if u go with my design plz DOBBLE CHECK THE SIZE, because the one that i use isn't common size 
