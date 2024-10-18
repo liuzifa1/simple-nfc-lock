@@ -9,4 +9,4 @@ and u 100% need to adjust this design to fit ur usage
 <rfid-readwrite-module-rc522.SLDPRT> mfrc522 model
 <LockHousing.SLDASM> parts all together
 # the file that u need to print is one part6b and TWO part6 if u go with my design
-remeber to check the size of each component, the part that i use isn't common
+remeber to check the size for each component, the part that i use isn't common
